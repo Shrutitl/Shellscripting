@@ -1,0 +1,4 @@
+#Use the cron scheduler to run the script periodically. Open the crontab configuration with:
+crontab -e
+#add a line to schedule the script to run, e.g., daily at 3 AM:
+0 3 * * * /path/to/email.sh
